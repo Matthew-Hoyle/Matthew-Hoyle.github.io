@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://shenoybr.github.io/hugo-goa-demo/"
+baseurl = "https://matthew-hoyle.netlify.com/"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
@@ -15,7 +15,7 @@ title = "Matthew Hoyle"
 theme = "hugo-goa"
 
 ## Hugo Built-in Features
-disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
 googleAnalytics = "XYZ"
 enableRobotsTXT = true
 
@@ -24,7 +24,7 @@ enableRobotsTXT = true
 author = "Matthew Hoyle"
 intro = "Statistics and Astronomy Undergraduate"
 description = "University of Illinois at Urbana-Champaign"
-authorimage = "Hoyle.Matthew.headshot.JPEG"
+authorimage = "Hoyle.Matthew.headshot.jpg"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
