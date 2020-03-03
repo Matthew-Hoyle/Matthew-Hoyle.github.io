@@ -52,7 +52,7 @@ displayrssicon = true
     name = "About Me"
     weight = 50
     identifier = "About Me"
-    url = "/about"
+    url = "/About Me.Rmd"
 [[menu.main]]
     name = "Blog"
     weight = 100
