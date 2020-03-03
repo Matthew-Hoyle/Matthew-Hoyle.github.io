@@ -21,10 +21,10 @@ enableRobotsTXT = true
 
 ## Site Settings
 [params]
-author = "Erlich Bachman"
-intro = "Startup Guru Extraordinaire"
-description = "Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\""
-authorimage = "headshot.jpg"
+author = "Matthew Hoyle"
+intro = "Statistics and Astronomy Major"
+description = "University of Illinois at Urbana-Champaign"
+authorimage = "Hoyle.Matthew.headshot.jpg"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
@@ -35,39 +35,8 @@ keywords = "minimalist,blog,goa,hugo,developer"
 ## Social Accounts
 [params.social]
 github = "https://github.com/Matthew-Hoyle"
-instagram = "<username>"
-xing = "<username>"
 linkedin = "https://www.linkedin.com/in/matthew-hoyle-0b33831a3/"
-twitter = "<username>"
-facebook = "<username>"
-google = "<username>"
-googlescholar = "<account_id>"
-stackoverflow = "<username>"
-lastfm = "<username>"
-goodreads = "<username>"
-gitlab = "<username>"
-bitbucket = "<username>"
-fivehundredpx = "<username>"
-flickr = "<username>"
-foursquare = "<username>"
-hackernews = "<username>"
-kickstarter = "<username>"
-patreon = "<username>"
-pintrest = "<username>"
-steam = "<username>"
-reddit = "<username>"
-snapchat = "<username>"
-youtube = "<channelid>"
-keybase = "<username>"
-twitch = "<username>"
-soundcloud = "<username>"
-tumblr = "<username>"
-strava = "<username>"
-skype = "<username>"
-telegram = "<username>"
-whatsapp = "<username>"
-email = "you@example.com"
-pgp = "<key_fingerprint>"
+email = "mhoyle2@illinois.edu.com"
 
 ## Extras
 [params.extra]
