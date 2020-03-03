@@ -25,7 +25,7 @@ author = "Matthew Hoyle"
 intro = "Statistics and Astronomy Undergraduate"
 description = "University of Illinois at Urbana-Champaign"
 authorimage = "Hoyle.Matthew.headshot.jpg"
-dateformat = "Jan 2, 2006"
+dateformat = "Jan 2, 2006" 
 
 ## Site Meta Settings
 [params.meta]
