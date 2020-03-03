@@ -16,8 +16,8 @@ theme = "hugo-goa"
 
 ## Hugo Built-in Features
 #disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
-googleAnalytics = "XYZ"
-enableRobotsTXT = true
+#googleAnalytics = "XYZ"
+#enableRobotsTXT = true
 
 ## Site Settings
 [params]
@@ -36,7 +36,7 @@ keywords = "minimalist,blog,goa,hugo,developer"
 [params.social]
 github = "Matthew-Hoyle"
 linkedin = "matthew-hoyle-0b33831a3/"
-email = "mhoyle2@illinois.edu"
+email = "www.gmail.com/mhoyle2@illinois.edu"
 
 ## Extras
 [params.extra]
@@ -49,17 +49,17 @@ displayrssicon = true
 
 ## Main Menu
 [[menu.main]]
-    name = "blog"
+    name = "About Me"
+    weight = 50
+    identifier = "About Me"
+    url = "/about"
+[[menu.main]]
+    name = "Blog"
     weight = 100
-    identifier = "blog"
+    identifier = "Blog"
     url = "/blog/"
 [[menu.main]]
-    name = "about"
-    identifier = "about"
-    weight = 200
-    url = "/about/"
-[[menu.main]]
-    name = "coderag"
-    identifier = "coderag"
-    weight = 300
-    url = "/coderag/"
+    name = "Resume"
+    identifier = "Resume"
+    weight = 150
+    url = "/RESUME.pdf/"
