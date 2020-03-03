@@ -6,7 +6,7 @@ canonifyurls = false
 languageCode = "en-US"
 
 contentdir = "content"
-layoutdir = "layouts"
+layoutdir = "layouts" 
 publishdir = "public"
 
 author = "Matthew Hoyle"
