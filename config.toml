@@ -52,7 +52,7 @@ displayrssicon = true
     name = "About Me"
     weight = 50
     identifier = "About Me"
-    url = "/about/"
+    url = "/test/testy.html"
 [[menu.main]]
     name = "Blog"
     weight = 100
@@ -63,8 +63,3 @@ displayrssicon = true
     identifier = "Resume"
     weight = 150
     url = "/RESUME.pdf/"
-[[menu.main]]
-    name = "test"
-    identifier = "test"
-    weight = 200
-    url = "/test/"
