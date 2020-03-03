@@ -9,8 +9,8 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 
-author = "Erlich Bachman"
-title = "Erlich Bachman"
+author = "Matthew Hoyle"
+title = "Matthew Hoyle"
 
 theme = "hugo-goa"
 
@@ -34,10 +34,10 @@ keywords = "minimalist,blog,goa,hugo,developer"
 
 ## Social Accounts
 [params.social]
-github = "<username>"
+github = "https://github.com/Matthew-Hoyle"
 instagram = "<username>"
 xing = "<username>"
-linkedin = "<username>"
+linkedin = "https://www.linkedin.com/in/matthew-hoyle-0b33831a3/"
 twitter = "<username>"
 facebook = "<username>"
 google = "<username>"
@@ -71,7 +71,7 @@ pgp = "<key_fingerprint>"
 
 ## Extras
 [params.extra]
-copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+copyright = ""
 poweredby = true
 highlightjs = true
 socialmarkup = true
