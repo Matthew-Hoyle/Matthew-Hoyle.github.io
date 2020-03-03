@@ -22,9 +22,9 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Matthew Hoyle"
-intro = "Statistics and Astronomy Major"
+intro = "Statistics and Astronomy Undergraduate"
 description = "University of Illinois at Urbana-Champaign"
-authorimage = "Hoyle.Matthew.headshot.jpg"
+authorimage = "Hoyle.Matthew.headshot.JPEG"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
