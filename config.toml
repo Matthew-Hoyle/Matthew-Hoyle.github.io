@@ -36,7 +36,7 @@ keywords = "minimalist,blog,goa,hugo,developer"
 [params.social]
 github = "Matthew-Hoyle"
 linkedin = "matthew-hoyle-0b33831a3/"
-email = "www.gmail.com/mhoyle2@illinois.edu"
+email = "mhoyle2@illinois.edu"
 
 ## Extras
 [params.extra]
