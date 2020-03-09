@@ -1,31 +1,115 @@
 ---
-title: "STAT 385 Blog Post"
+title: "STAT 385 Midterm Review"
 author: "Matthew Hoyle"
 date: 2020-03-05T12:00:00-00:00
 categories: ["R"]
 tags: ["STAT385", "R"]
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+This semester in Stat 385: Statistics Programming Methods I have learned a fair amount of technical skills. Although I entered this class fairly experienced with R, I have learned quite a few R techniques that I was unfimiliar with previously, as well as learning how to use Github Rblogdown.
+
+### R Functions and Techniques
+
+Listed below are a few functions that before entering this course I had either only used sparingly or hadn't used at all. I have thus far have learned a great deal about each of them eitehr through class or personal research.
+
+* cat()
+* %in%
+* replicate()
+
+\
+
+In addition to these functions, I also have learned a great deal about vectorized coding. Before this class I had never actually intentionally attempted to code vectorized functions. I of course had done so a few times without really understanding what vectorized functions are, since this is the first time I had learned of them.
+
+\
+
+Below is an example of vectorized coding in action, question 1(c) on homework 3. The first chunk of code is the original function, and the second chunk is my vectorized function. As you can see, the vectorized function provides the same result in addition to being shorter both in code as well as run time.
+
+\
+
+Original function:
+```{r}
+roulette_loop <- function(many_bets) {
+  
+  # randomly decide whether you lose or win on each bet
+  win_lose_random <- sample(x = c(TRUE, FALSE), size = length(many_bets),
+                            replace = TRUE)
+  
+  total_prize <- c()
+  
+  # for each bet
+  for (i in 1:length(many_bets)) {
+    bet <- many_bets[i]
+    prize <- 0
+    
+    # if we win, then check how much the prize is
+    if (win_lose_random[i]) {
+      if (bet == 'low') {
+        prize <- 10
+      } else if (bet == 'high'){
+        prize <- 10
+      } else if (bet == 'red') {
+        prize <- 20
+      } else if (bet == "black") {
+        prize <- 20
+      } else if (bet == "odd") {
+        prize <- 15
+      } else if (bet == "even") {
+        prize <- 15
+      } else if (bet == "first") {
+        prize <- 50
+      } else if (bet == "second") {
+        prize <- 50
+      } else if (bet == "third") {
+        prize <- 50
+      }
+    }
+  # add prize from this bet to the total prize
+  total_prize <- c(total_prize, prize)
+  }
+  
+  total_prize
+}
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+```{r}
+set.seed(385)
+roulette_loop(many_bets = c("red", "black", "low", "high"))
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r}
+long_vec <- rep(c("red", "black", "low", "high", "second", "first", "third",
+                  "odd", "even"), 10000)
+system.time(roulette_loop(many_bets = long_vec))
+```
+\
+Vectorized function:
+```{r}
+roulette_vec <- function(many_bets){
+    
+    result <- c()
+    win_lose_random <- sample(x = c(TRUE, FALSE), size = length(many_bets),
+                              replace = TRUE)
+    
+    result[many_bets == 'low' | many_bets == 'high' ] <- 10
+    result[many_bets == 'red' | many_bets == 'black' ] <- 20
+    result[many_bets == 'odd' | many_bets == 'even' ] <- 15
+    result[many_bets == 'first' | many_bets == 'second' | many_bets == 'third' ] <- 50
+    
+    result[win_lose_random == FALSE] <- 0
+    
+    return(result)
+}
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+set.seed(385)
+roulette_vec(many_bets = c("red", "black", "low", "high"))
+```
+
+```{r}
+long_vec <- rep(c("red", "black", "low", "high", "second", "first", "third",
+                  "odd", "even"), 10000)
+system.time(roulette_vec(many_bets = long_vec))
+```
+
+

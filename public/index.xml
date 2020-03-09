@@ -12,13 +12,13 @@
     
     
     <item>
-      <title>STAT 385 Blog Post</title>
+      <title>STAT 385 Midterm Review</title>
       <link>/blog/stat385-blog-post/</link>
       <pubDate>Thu, 05 Mar 2020 12:00:00 +0000</pubDate>
       
       <guid>/blog/stat385-blog-post/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</description>
+      <description>This semester in Stat 385: Statistics Programming Methods I have learned a fair amount of technical skills. Although I entered this class fairly experienced with R, I have learned quite a few R techniques that I was unfimiliar with previously, as well as learning how to use Github Rblogdown.
+R Functions and TechniquesListed below are a few functions that before entering this course I had either only used sparingly or hadn’t used at all.</description>
     </item>
     
     <item>
