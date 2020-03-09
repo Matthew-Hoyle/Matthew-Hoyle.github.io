@@ -2,11 +2,11 @@
 title: "STAT 385 Midterm Review"
 author: "Matthew Hoyle"
 date: 2020-03-05T12:00:00-00:00
-categories: ["R"]
-tags: ["STAT385", "R"]
+categories: ["STAT 385"]
+tags: ["STAT385", "R", "Github", "R blogdown"]
 ---
 
-This semester in Stat 385: Statistics Programming Methods I have learned a fair amount of technical skills. Although I entered this class fairly experienced with R, I have learned quite a few R techniques that I was unfimiliar with previously, as well as learning how to use Github Rblogdown.
+This semester in Stat 385: Statistics Programming Methods I have learned a fair amount of technical skills. Although I entered this class fairly experienced with R, I have learned quite a few R techniques that I was unfimiliar with previously, as well as learning how to use Github and R blogdown.
 
 ### R Functions and Techniques
 
@@ -112,4 +112,10 @@ long_vec <- rep(c("red", "black", "low", "high", "second", "first", "third",
 system.time(roulette_vec(many_bets = long_vec))
 ```
 
+### Github and R blogdown
 
+Before this semester I had never used Github, and now thanks to STAT385 I have the skills needed to become comfortable with the platform. I have learned how to create repositories, clone respositories to my machine, stage commits, and pull and push files. I also learned how to use Github through Rstudio, where I find it much easier to work on projects compared to interacting with Github through the terminal or Github Bash.
+
+\
+
+R blogdown is probably one of the more difficult and interesting aspect of R that I have learned up to this date. Our midterm project for STAT 385 was to create a website (the one you're on right now!) using R blogdown and Github. I have no prior experience with building websites, so I knew this was going to be a bit tricky for me. After countless hours of editing and moving files, completely breaking my entire project and having to restart mutliple times, and countless YouTube tutorial videos, I feel as if I have a solid grasp on R blogdown. It was a tough process, but I'm so happy with the outcome. I hope you enjoy my website too!

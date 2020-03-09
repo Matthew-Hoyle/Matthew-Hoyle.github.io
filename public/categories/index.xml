@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>R</title>
-      <link>/categories/r/</link>
+      <title>STAT 385</title>
+      <link>/categories/stat-385/</link>
       <pubDate>Thu, 05 Mar 2020 12:00:00 +0000</pubDate>
       
-      <guid>/categories/r/</guid>
+      <guid>/categories/stat-385/</guid>
       <description></description>
     </item>
     
@@ -53,6 +53,15 @@
       <pubDate>Sun, 02 Oct 2016 15:59:13 -0400</pubDate>
       
       <guid>/categories/ad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/categories/r/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/categories/r/</guid>
       <description></description>
     </item>
     

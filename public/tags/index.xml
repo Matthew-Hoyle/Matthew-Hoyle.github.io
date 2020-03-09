@@ -12,11 +12,29 @@
     
     
     <item>
+      <title>Github</title>
+      <link>/tags/github/</link>
+      <pubDate>Thu, 05 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R</title>
       <link>/tags/r/</link>
       <pubDate>Thu, 05 Mar 2020 12:00:00 +0000</pubDate>
       
       <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R blogdown</title>
+      <link>/tags/r-blogdown/</link>
+      <pubDate>Thu, 05 Mar 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/r-blogdown/</guid>
       <description></description>
     </item>
     
