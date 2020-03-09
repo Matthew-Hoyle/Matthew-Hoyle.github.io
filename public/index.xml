@@ -22,15 +22,6 @@ R Functions and TechniquesListed below are a few functions that before entering
     </item>
     
     <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Erlich administers the Hacker Hostel, a tech incubator where Richard, Big Head, Dinesh, and Gilfoyle live and work in exchange for 10 percent of their potential businesses. Erlich clings to his glory days, when he sold aviation start-up Aviato, a move that, at least in his mind, qualifies him to be a svengali lording over other tech nerds. He still drives a car emblazoned with multiple Aviato logos and smokes copious amounts of weed.</description>
-    </item>
-    
-    <item>
       <title>CodeRag</title>
       <link>/coderag/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
@@ -50,16 +41,6 @@ Code/Rag has always been more than just another online tech blog. We strive to b
 I’m Matthew Hoyle.
 I’m a Junior double majoring in Statistics and Astronomy at the University of Illinois at Urbana-Champaign.
 Aside from my studies, I am also currently a course assistant for STAT 200: Statistical Analysis as well as a social media data analyst intern for the University of Illinois Student Money Management Center. Within my position at the Student Money Management Center, I have gained valuable experience cleaning, analyzing, and visualizing data from Twitter, Facebook, and Instagram, as well as creating automation programs for said processes.</description>
-    </item>
-    
-    <item>
-      <title>Testy</title>
-      <link>/test/testy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/test/testy/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</description>
     </item>
     
   </channel>
