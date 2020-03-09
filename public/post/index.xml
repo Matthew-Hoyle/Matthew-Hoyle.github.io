@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Matthew Hoyle</title>
+    <link>https://matthew-hoyle.netlify.com/post/</link>
+    <description>Recent content in Posts on Matthew Hoyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 08 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://matthew-hoyle.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test blog post</title>
+      <link>https://matthew-hoyle.netlify.com/post/test-blog-post/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthew-hoyle.netlify.com/post/test-blog-post/</guid>
+      <description>Hello.
+This is a test blog post, I am experimenting with how to create post pages.
+I hope this works!
+Header 1 Header 2 hi hi hi
+xx &amp;lt;- rnorm(10)hist(xx)</description>
+    </item>
+    
+  </channel>
+</rss>

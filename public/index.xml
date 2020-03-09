@@ -12,6 +12,19 @@
     
     
     <item>
+      <title>Test blog post</title>
+      <link>https://matthew-hoyle.netlify.com/post/test-blog-post/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthew-hoyle.netlify.com/post/test-blog-post/</guid>
+      <description>Hello.
+This is a test blog post, I am experimenting with how to create post pages.
+I hope this works!
+Header 1 Header 2 hi hi hi
+xx &amp;lt;- rnorm(10)hist(xx)</description>
+    </item>
+    
+    <item>
       <title>Hooli’s Hot New Hardware</title>
       <link>https://matthew-hoyle.netlify.com/blog/third/</link>
       <pubDate>Mon, 03 Oct 2016 16:59:13 -0400</pubDate>
