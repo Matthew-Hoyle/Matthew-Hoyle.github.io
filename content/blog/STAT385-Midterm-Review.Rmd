@@ -10,19 +10,20 @@ This semester in Stat 385: Statistics Programming Methods I have learned a fair 
 
 ### R Functions and Techniques
 
-Listed below are a few functions that before entering this course I had either only used sparingly or hadn't used at all. I have thus far have learned a great deal about each of them eitehr through class or personal research.
+Listed below are a few functions that before entering this course I had either only used sparingly or hadn't used at all. I have thus far have learned a great deal about each of them either through class or supplemental research.
 
 * cat()
 * %in%
 * replicate()
+* R base plotting functions
 
 \
 
-In addition to these functions, I also have learned a great deal about vectorized coding. Before this class I had never actually intentionally attempted to code vectorized functions. I of course had done so a few times without really understanding what vectorized functions are, since this is the first time I had learned of them.
+In addition to these functions, I have also learned a great deal about vectorized coding. Before this class I had never actually intentionally attempted to code vectorized functions. I had of course done so here or there without realizing it, but with a structured learning experience I have been able to make a focused effort to implement vectorized functions and improve my code.
 
 \
 
-Below is an example of vectorized coding in action, question 1(c) on homework 3. The first chunk of code is the original function, and the second chunk is my vectorized function. As you can see, the vectorized function provides the same result in addition to being shorter both in code as well as run time.
+Below is an example of vectorized coding in action, from question 1(c) on homework 3. The design of the function is to take multiple roulette bets and return the value of money won from each bet. The first chunk of code is the original function using a for and if statements, and the second chunk is my vectorized function. As you can see, the vectorized function returns the same result while being shorter both in code as well as run time (run times for an entry of 90,000 bets is included below the function outputs).
 
 \
 
@@ -117,8 +118,6 @@ system.time(roulette_vec(many_bets = long_vec))
 
 ### Github and R blogdown
 
-Before this semester I had never used Github, and now thanks to STAT385 I have the skills needed to become comfortable with the platform. I have learned how to create repositories, clone respositories to my machine, stage commits, and pull and push files. I also learned how to use Github through Rstudio, where I find it much easier to work on projects compared to interacting with Github through the terminal or Github Bash.
+Before this semester I had never used Github, and now thanks to STAT385 I have the skills needed to be comfortable with the platform. I have learned how to create repositories, clone respositories to my machine, stage commits, and pull and push files. I also learned how to use Github through Rstudio, where I find it much easier to work on projects compared to interacting with Github through the terminal or Github Bash.
 
-\
-
-R blogdown is probably one of the more difficult and interesting aspect of R that I have learned up to this date. Our midterm project for STAT 385 was to create a website (the one you're on right now!) using R blogdown and Github. I have no prior experience with building websites, so I knew this was going to be a bit tricky for me. After countless hours of editing and moving files, completely breaking my entire project and having to restart mutliple times, and countless YouTube tutorial videos, I feel as if I have a solid grasp on R blogdown. It was a tough process, but I'm so happy with the outcome.
+R blogdown is probably one of the more difficult and interesting aspects of R that I have learned to this date. Our midterm project for STAT 385 was to create a website (the one you're on right now!) using R blogdown and Github. I have no prior experience with building websites, so I knew this was going to be a bit tricky for me. After countless hours of editing and moving files, completely breaking my entire project and having to restart mutliple times, and countless YouTube tutorial videos, I feel as if I have a solid grasp on R blogdown. It was a tough process, but I'm so happy with the outcome.

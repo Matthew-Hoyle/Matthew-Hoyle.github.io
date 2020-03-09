@@ -11,16 +11,17 @@ tags: ["STAT385", "R", "Github", "R blogdown"]
 <p>This semester in Stat 385: Statistics Programming Methods I have learned a fair amount of technical skills. Although I entered this class fairly experienced with R, I have learned quite a few R techniques that I was unfimiliar with previously, as well as learning how to use Github and R blogdown.</p>
 <div id="r-functions-and-techniques" class="section level3">
 <h3>R Functions and Techniques</h3>
-<p>Listed below are a few functions that before entering this course I had either only used sparingly or hadn’t used at all. I have thus far have learned a great deal about each of them eitehr through class or personal research.</p>
+<p>Listed below are a few functions that before entering this course I had either only used sparingly or hadn’t used at all. I have thus far have learned a great deal about each of them either through class or supplemental research.</p>
 <ul>
 <li>cat()</li>
 <li>%in%</li>
 <li>replicate()</li>
+<li>R base plotting functions</li>
 </ul>
 <p><br />
-In addition to these functions, I also have learned a great deal about vectorized coding. Before this class I had never actually intentionally attempted to code vectorized functions. I of course had done so a few times without really understanding what vectorized functions are, since this is the first time I had learned of them.</p>
+In addition to these functions, I have also learned a great deal about vectorized coding. Before this class I had never actually intentionally attempted to code vectorized functions. I had of course done so here or there without realizing it, but with a structured learning experience I have been able to make a focused effort to implement vectorized functions and improve my code.</p>
 <p><br />
-Below is an example of vectorized coding in action, question 1(c) on homework 3. The first chunk of code is the original function, and the second chunk is my vectorized function. As you can see, the vectorized function provides the same result in addition to being shorter both in code as well as run time.</p>
+Below is an example of vectorized coding in action, from question 1(c) on homework 3. The design of the function is to take multiple roulette bets and return the value of money won from each bet. The first chunk of code is the original function using a for and if statements, and the second chunk is my vectorized function. As you can see, the vectorized function returns the same result while being shorter both in code as well as run time (run times for an entry of 90,000 bets is included below the function outputs).</p>
 <p><br />
 Original function:</p>
 <pre class="r"><code>roulette_loop &lt;- function(many_bets) {
@@ -71,7 +72,7 @@ roulette_loop(many_bets = c(&quot;red&quot;, &quot;black&quot;, &quot;low&quot;,
                   &quot;odd&quot;, &quot;even&quot;), 10000)
 system.time(roulette_loop(many_bets = long_vec))</code></pre>
 <pre><code>##    user  system elapsed 
-##    8.14    0.40    8.56</code></pre>
+##    8.53    0.44    9.02</code></pre>
 <p><br />
 Vectorized function:</p>
 <pre class="r"><code>roulette_vec &lt;- function(many_bets){
@@ -96,11 +97,10 @@ roulette_vec(many_bets = c(&quot;red&quot;, &quot;black&quot;, &quot;low&quot;, 
                   &quot;odd&quot;, &quot;even&quot;), 10000)
 system.time(roulette_vec(many_bets = long_vec))</code></pre>
 <pre><code>##    user  system elapsed 
-##       0       0       0</code></pre>
+##    0.02    0.00    0.01</code></pre>
 </div>
 <div id="github-and-r-blogdown" class="section level3">
 <h3>Github and R blogdown</h3>
-<p>Before this semester I had never used Github, and now thanks to STAT385 I have the skills needed to become comfortable with the platform. I have learned how to create repositories, clone respositories to my machine, stage commits, and pull and push files. I also learned how to use Github through Rstudio, where I find it much easier to work on projects compared to interacting with Github through the terminal or Github Bash.</p>
-<p><br />
-R blogdown is probably one of the more difficult and interesting aspect of R that I have learned up to this date. Our midterm project for STAT 385 was to create a website (the one you’re on right now!) using R blogdown and Github. I have no prior experience with building websites, so I knew this was going to be a bit tricky for me. After countless hours of editing and moving files, completely breaking my entire project and having to restart mutliple times, and countless YouTube tutorial videos, I feel as if I have a solid grasp on R blogdown. It was a tough process, but I’m so happy with the outcome.</p>
+<p>Before this semester I had never used Github, and now thanks to STAT385 I have the skills needed to be comfortable with the platform. I have learned how to create repositories, clone respositories to my machine, stage commits, and pull and push files. I also learned how to use Github through Rstudio, where I find it much easier to work on projects compared to interacting with Github through the terminal or Github Bash.</p>
+<p>R blogdown is probably one of the more difficult and interesting aspects of R that I have learned to this date. Our midterm project for STAT 385 was to create a website (the one you’re on right now!) using R blogdown and Github. I have no prior experience with building websites, so I knew this was going to be a bit tricky for me. After countless hours of editing and moving files, completely breaking my entire project and having to restart mutliple times, and countless YouTube tutorial videos, I feel as if I have a solid grasp on R blogdown. It was a tough process, but I’m so happy with the outcome.</p>
 </div>
