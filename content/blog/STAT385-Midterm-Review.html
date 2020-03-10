@@ -72,7 +72,7 @@ roulette_loop(many_bets = c(&quot;red&quot;, &quot;black&quot;, &quot;low&quot;,
                   &quot;odd&quot;, &quot;even&quot;), 10000)
 system.time(roulette_loop(many_bets = long_vec))</code></pre>
 <pre><code>##    user  system elapsed 
-##    8.62    0.39    9.16</code></pre>
+##    9.07    0.37    9.88</code></pre>
 <p><br />
 Vectorized function:</p>
 <pre class="r"><code>roulette_vec &lt;- function(many_bets){
@@ -97,7 +97,7 @@ roulette_vec(many_bets = c(&quot;red&quot;, &quot;black&quot;, &quot;low&quot;, 
                   &quot;odd&quot;, &quot;even&quot;), 10000)
 system.time(roulette_vec(many_bets = long_vec))</code></pre>
 <pre><code>##    user  system elapsed 
-##    0.02    0.00    0.01</code></pre>
+##    0.01    0.00    0.01</code></pre>
 </div>
 <div id="github-and-r-blogdown" class="section level3">
 <h3>Github and R blogdown</h3>

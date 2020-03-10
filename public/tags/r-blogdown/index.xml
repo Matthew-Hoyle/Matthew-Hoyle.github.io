@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R blogdown on Matthew Hoyle</title>
-    <link>https://matthew-hoyle.netlify.com/tags/r-blogdown/</link>
+    <link>/tags/r-blogdown/</link>
     <description>Recent content in R blogdown on Matthew Hoyle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 05 Mar 2020 12:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://matthew-hoyle.netlify.com/tags/r-blogdown/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/r-blogdown/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>STAT 385 Midterm Review</title>
-      <link>https://matthew-hoyle.netlify.com/blog/stat385-midterm-review/</link>
+      <link>/blog/stat385-midterm-review/</link>
       <pubDate>Thu, 05 Mar 2020 12:00:00 +0000</pubDate>
       
-      <guid>https://matthew-hoyle.netlify.com/blog/stat385-midterm-review/</guid>
+      <guid>/blog/stat385-midterm-review/</guid>
       <description>This semester in Stat 385: Statistics Programming Methods I have learned a fair amount of technical skills. Although I entered this class fairly experienced with R, I have learned quite a few R techniques that I was unfimiliar with previously, as well as learning how to use Github and R blogdown.
 R Functions and TechniquesListed below are a few functions that before entering this course I had either only used sparingly or hadn’t used at all.</description>
     </item>

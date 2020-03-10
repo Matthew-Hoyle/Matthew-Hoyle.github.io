@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Matthew Hoyle</title>
-    <link>https://matthew-hoyle.netlify.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Matthew Hoyle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 05 Mar 2020 12:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://matthew-hoyle.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Github</title>
-      <link>https://matthew-hoyle.netlify.com/tags/github/</link>
+      <link>/tags/github/</link>
       <pubDate>Thu, 05 Mar 2020 12:00:00 +0000</pubDate>
       
-      <guid>https://matthew-hoyle.netlify.com/tags/github/</guid>
+      <guid>/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://matthew-hoyle.netlify.com/tags/r/</link>
+      <link>/tags/r/</link>
       <pubDate>Thu, 05 Mar 2020 12:00:00 +0000</pubDate>
       
-      <guid>https://matthew-hoyle.netlify.com/tags/r/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R blogdown</title>
-      <link>https://matthew-hoyle.netlify.com/tags/r-blogdown/</link>
+      <link>/tags/r-blogdown/</link>
       <pubDate>Thu, 05 Mar 2020 12:00:00 +0000</pubDate>
       
-      <guid>https://matthew-hoyle.netlify.com/tags/r-blogdown/</guid>
+      <guid>/tags/r-blogdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>STAT385</title>
-      <link>https://matthew-hoyle.netlify.com/tags/stat385/</link>
+      <link>/tags/stat385/</link>
       <pubDate>Thu, 05 Mar 2020 12:00:00 +0000</pubDate>
       
-      <guid>https://matthew-hoyle.netlify.com/tags/stat385/</guid>
+      <guid>/tags/stat385/</guid>
       <description></description>
     </item>
     
     <item>
       <title>aviato</title>
-      <link>https://matthew-hoyle.netlify.com/tags/aviato/</link>
+      <link>/tags/aviato/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
-      <guid>https://matthew-hoyle.netlify.com/tags/aviato/</guid>
+      <guid>/tags/aviato/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bachman</title>
-      <link>https://matthew-hoyle.netlify.com/tags/bachman/</link>
+      <link>/tags/bachman/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
-      <guid>https://matthew-hoyle.netlify.com/tags/bachman/</guid>
+      <guid>/tags/bachman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pied piper</title>
-      <link>https://matthew-hoyle.netlify.com/tags/pied-piper/</link>
+      <link>/tags/pied-piper/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
-      <guid>https://matthew-hoyle.netlify.com/tags/pied-piper/</guid>
+      <guid>/tags/pied-piper/</guid>
       <description></description>
     </item>
     
