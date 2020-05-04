@@ -3,7 +3,7 @@ title: "STAT 385 Midterm Review"
 author: "Matthew Hoyle"
 date: 2020-03-05T12:00:00-00:00
 categories: ["STAT 385"]
-tags: ["STAT385", "R", "Github", "R blogdown"]
+tags: ["STAT 385", "R", "Github", "R blogdown"]
 ---
 
 This semester in Stat 385: Statistics Programming Methods I have learned a fair amount of technical skills. Although I entered this class fairly experienced with R, I have learned quite a few R techniques that I was unfimiliar with previously, as well as learning how to use Github and R blogdown.
