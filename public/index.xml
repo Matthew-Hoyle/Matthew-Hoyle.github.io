@@ -6,7 +6,7 @@
     <description>Recent content on Matthew Hoyle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2020 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://matthew-hoyle.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,16 +19,6 @@
       <guid>https://matthew-hoyle.netlify.com/blog/stat385-midterm-review/</guid>
       <description>This semester in Stat 385: Statistics Programming Methods I have learned a fair amount of technical skills. Although I entered this class fairly experienced with R, I have learned quite a few R techniques that I was unfimiliar with previously, as well as learning how to use Github and R blogdown.
 R Functions and TechniquesListed below are a few functions that before entering this course I had either only used sparingly or hadn’t used at all.</description>
-    </item>
-    
-    <item>
-      <title>CodeRag</title>
-      <link>https://matthew-hoyle.netlify.com/coderag/</link>
-      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
-      
-      <guid>https://matthew-hoyle.netlify.com/coderag/</guid>
-      <description>Notes: This article originally appeared in CodeRag.
-Code/Rag has always been more than just another online tech blog. We strive to be part of the tech community—serving an essential, fundamental look at what’s going on in the valley. It’s why our tagline is “Know Your Code.” We think a tech news publication should know the basics. Be the source. Get down to brass tacks. We can do that because we’re part of the very ecosystem we’re reporting on.</description>
     </item>
     
     <item>
