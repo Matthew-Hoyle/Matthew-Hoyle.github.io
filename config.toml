@@ -63,9 +63,3 @@ displayrssicon = true
     identifier = "Resume"
     weight = 150
     url = "/MATTHEWHOYLE_RESUME.pdf/"
-    
-[[menu.main]]
-    name = "test"
-    identifier = "test"
-    weight = 200
-    url = "www.youtube.com"
